@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  background: #FFFAFA;
+  color: #000000;
+  margin: 10px;
+}
+
+label {
+  margin: auto;
+}
+
+#list {
+  list-style: none;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+#textfield {
+  font-family: Verdana, sans-serif;
+  margin-left: 3px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid #7d26cd;
+  padding: 10px;
+}
+
+/*The ::placeholder selector selects form elements with placeholder text.*/
+::placeholder {
+  opacity: 0.60;
+}
+
+#addItem {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #7d26cd;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+#addItem:hover {
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.check {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #008b00;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.check:hover {
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.remove {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #EE2C2C;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.remove:hover {
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.shoppingList {
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #7d26cd;
+  margin: 20px 0 0 0;
+  padding: 20px;
+}
